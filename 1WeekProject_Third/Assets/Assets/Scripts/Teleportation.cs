@@ -7,9 +7,11 @@ public class Teleportation : MonoBehaviour
 
     public GameObject subamarine;
 
-    private void Update()
+    private void Awake()
     {
         CheckForDestructibles();
+
+        Invoke("Destroy", 3.0f);
     }
 
     private void CheckForDestructibles()
@@ -24,6 +26,11 @@ public class Teleportation : MonoBehaviour
                 collider.transform.position = subamarine.transform.position;
             }
         }
-
     }
+
+    private void Destroy()
+    {
+        Destroy(this.gameObject);
+    }
+
 }
