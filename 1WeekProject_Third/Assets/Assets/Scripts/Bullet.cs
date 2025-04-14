@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody rigid;
+
+    private void Awake()
     {
-        
+        rigid = GetComponent<Rigidbody>();
+
+        this.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
