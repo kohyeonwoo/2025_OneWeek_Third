@@ -361,13 +361,18 @@
 "Assets/Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
 "Assets/Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/Assets/Scripts/AudioManager.cs"
 "Assets/Assets/Scripts/Bullet.cs"
 "Assets/Assets/Scripts/CameraResolution.cs"
+"Assets/Assets/Scripts/Enemy.cs"
+"Assets/Assets/Scripts/Enemy_MaskUnit.cs"
 "Assets/Assets/Scripts/ForBeforeSave/GroundPlacementController.cs"
 "Assets/Assets/Scripts/ForBeforeSave/PlayerUnit.cs"
 "Assets/Assets/Scripts/ForBeforeSave/SubMarine.cs"
 "Assets/Assets/Scripts/ForBeforeSave/Teleportation.cs"
+"Assets/Assets/Scripts/IDamageable.cs"
 "Assets/Assets/Scripts/PlayerController.cs"
+"Assets/Assets/Scripts/Sound.cs"
 -langversion:9.0
 
 /deterministic

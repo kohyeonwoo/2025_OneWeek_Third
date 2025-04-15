@@ -37,6 +37,10 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        //else
+        //{
+        //    AudioManager.Instance.PlaySFX("DrivingSound");
+        //}
 
         Quaternion directionQuaternion = Quaternion.LookRotation(moveVector);
         Quaternion moveQuaternion = Quaternion.Slerp(rigid.rotation, directionQuaternion, 0.3f);
@@ -48,6 +52,7 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("Shoot");
 
+        AudioManager.Instance.PlaySFX("FireSound");
         GameObject bulletGameObject = Instantiate(bulletPrefab, muzzleLocation.position, muzzleLocation.rotation);
         bulletGameObject.GetComponent<Rigidbody>().velocity = (muzzleLocation.transform.right *-1) * 40.0f;
     }
