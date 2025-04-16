@@ -372,6 +372,7 @@
 "Assets/Assets/Scripts/ForBeforeSave/Teleportation.cs"
 "Assets/Assets/Scripts/IDamageable.cs"
 "Assets/Assets/Scripts/PlayerController.cs"
+"Assets/Assets/Scripts/SceneMoveManager.cs"
 "Assets/Assets/Scripts/Sound.cs"
 -langversion:9.0
 
